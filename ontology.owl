@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY xsd  "http://www.w3.org/2001/XMLSchema#">
+    <!ENTITY owl  "http://www.w3.org/2002/07/owl#">
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+    <!ENTITY rdf  "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+]>
+<rdf:RDF xmlns="http://www.semanticweb.org/ontology#"
+     xml:base="http://www.semanticweb.org/ontology"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+     
+    <!-- Class Declarations -->
+    <owl:Class rdf:about="#Rumah"/>
+    <owl:Class rdf:about="#RuangTamu"/>
+    <owl:Class rdf:about="#KamarTidur"/>
+    <owl:Class rdf:about="#Dapur"/>
+    <owl:Class rdf:about="#Toilet"/>
+    <owl:Class rdf:about="#Parkir"/>
+    <owl:Class rdf:about="#Garasi"/>
+    
+    <!-- Individual Declarations -->
+    <owl:NamedIndividual rdf:about="#Rumah1">
+        <rdf:type rdf:resource="#Rumah"/>
+        <rumah1 rdf:resource="#ruangTamu1"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Rumah2">
+        <rdf:type rdf:resource="#Rumah"/>
+        <kamarTidur2 rdf:resource="#mejaBelajarKamar2"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Rumah3">
+        <rdf:type rdf:resource="#Rumah"/>
+        <dapur3 rdf:resource="#ovenDapur3"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#ruangTamu1">
+        <rdf:type rdf:resource="#RuangTamu"/>
+        <sofaRuangan1 rdf:resource="#ruangTamu1"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#ruangTamu2">
+        <rdf:type rdf:resource="#RuangTamu"/>
+        <mejaRuangan2 rdf:resource="#ruangTamu2"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#ruangTamu3">
+        <rdf:type rdf:resource="#RuangTamu"/>
+        <televisiRuangan3 rdf:resource="#ruangTamu3"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#kamarTidur1">
+        <rdf:type rdf:resource="#KamarTidur"/>
+        <tempatTidurKamar1 rdf:resource="#kamarTidur1"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#kamarTidur2">
+        <rdf:type rdf:resource="#KamarTidur"/>
+        <mejaBelajarKamar2 rdf:resource="#kamarTidur2"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#kamarTidur3">
+        <rdf:type rdf:resource="#KamarTidur"/>
+        <lemariPakaianKamar3 rdf:resource="#kamarTidur3"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#dapur1">
+        <rdf:type rdf:resource="#Dapur"/>
+        <kulkasDapur1 rdf:resource="#dapur1"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#dapur2">
+        <rdf:type rdf:resource="#Dapur"/>
+        <komporDapur2 rdf:resource="#dapur2"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#dapur3">
+        <rdf:type rdf:resource="#Dapur"/>
+        <ovenDapur3 rdf:resource="#dapur3"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#toilet1">
+        <rdf:type rdf:resource="#Toilet"/>
+        <wastafelToilet1 rdf:resource="#toilet1"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#toilet2">
+        <rdf:type rdf:resource="#Toilet"/>
+        <showerToilet2 rdf:resource="#toilet2"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#toilet3">
+        <rdf:type rdf:resource="#Toilet"/>
+        <toiletDudukToilet3 rdf:resource="#toilet3"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#parkir1">
+        <rdf:type rdf:resource="#Parkir"/>
+        <mobilParkir1 rdf:resource="#parkir1"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#parkir2">
+        <rdf:type rdf:resource="#Parkir"/>
+        <motorParkir2 rdf:resource="#parkir2"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#parkir3">
+        <rdf:type rdf:resource="#Parkir"/>
+        <sepedaParkir3 rdf:resource="#parkir3"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#garasi1">
+        <rdf:type rdf:resource="#Garasi"/>
+        <mobilGarasi1 rdf:resource="#garasi1"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#garasi2">
+        <rdf:type rdf:resource="#Garasi"/>
+        <sepedaGarasi2 rdf:resource="#garasi2"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#garasi3">
+        <rdf:type rdf:resource="#Garasi"/>
+        <motorGarasi3 rdf:resource="#garasi3"/>
+    </owl:NamedIndividual>
+    
+    <!-- Object Property Declarations -->
+    <owl:ObjectProperty rdf:about="#rumah1"/>
+    <owl:ObjectProperty rdf:about="#rumah2"/>
+    <owl:ObjectProperty rdf:about="#rumah3"/>
+    <owl:ObjectProperty rdf:about="#ruangTamu1"/>
+    <owl:ObjectProperty rdf:about="#ruangTamu2"/>
+    <owl:ObjectProperty rdf:about="#ruangTamu3"/>
+    <owl:ObjectProperty rdf:about="#kamarTidur1"/>
+    <owl:ObjectProperty rdf:about="#kamarTidur2"/>
+    <owl:ObjectProperty rdf:about="#kamarTidur3"/>
+    <owl:ObjectProperty rdf:about="#dapur1"/>
+    <owl:ObjectProperty rdf:about="#dapur2"/>
+    <owl:ObjectProperty rdf:about="#dapur3"/>
+    <owl:ObjectProperty rdf:about="#toilet1"/>
+    <owl:ObjectProperty rdf:about="#toilet2"/>
+    <owl:ObjectProperty rdf:about="#toilet3"/>
+    <owl:ObjectProperty rdf:about="#parkir1"/>
+    <owl:ObjectProperty rdf:about="#parkir2"/>
+    <owl:ObjectProperty rdf:about="#parkir3"/>
+    <owl:ObjectProperty rdf:about="#garasi1"/>
+    <owl:ObjectProperty rdf:about="#garasi2"/>
+    <owl:ObjectProperty rdf:about="#garasi3"/>
+    
+    <!-- Object Property Assertions -->
+    <rdf:Description rdf:about="#Rumah1">
+        <rumah1 rdf:resource="#ruangTamu1"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#Rumah2">
+        <kamarTidur2 rdf:resource="#mejaBelajarKamar2"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#Rumah3">
+        <dapur3 rdf:resource="#ovenDapur3"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#ruangTamu1">
+        <sofaRuangan1 rdf:resource="#ruangTamu1"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#ruangTamu2">
+        <mejaRuangan2 rdf:resource="#ruangTamu2"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#ruangTamu3">
+        <televisiRuangan3 rdf:resource="#ruangTamu3"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#kamarTidur1">
+        <tempatTidurKamar1 rdf:resource="#kamarTidur1"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#kamarTidur2">
+        <mejaBelajarKamar2 rdf:resource="#kamarTidur2"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#kamarTidur3">
+        <lemariPakaianKamar3 rdf:resource="#kamarTidur3"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#dapur1">
+        <kulkasDapur1 rdf:resource="#dapur1"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#dapur2">
+        <komporDapur2 rdf:resource="#dapur2"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#dapur3">
+        <ovenDapur3 rdf:resource="#dapur3"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#toilet1">
+        <wastafelToilet1 rdf:resource="#toilet1"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#toilet2">
+        <showerToilet2 rdf:resource="#toilet2"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#toilet3">
+        <toiletDudukToilet3 rdf:resource="#toilet3"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#parkir1">
+        <mobilParkir1 rdf:resource="#parkir1"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#parkir2">
+        <motorParkir2 rdf:resource="#parkir2"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#parkir3">
+        <sepedaParkir3 rdf:resource="#parkir3"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#garasi1">
+        <mobilGarasi1 rdf:resource="#garasi1"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#garasi2">
+        <sepedaGarasi2 rdf:resource="#garasi2"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#garasi3">
+        <motorGarasi3 rdf:resource="#garasi3"/>
+    </rdf:Description>
+    
+</rdf:RDF>
