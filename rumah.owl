@@ -1,0 +1,455 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ontology#"
+     xml:base="http://www.semanticweb.org/ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:house="http://www.semanticweb.org/ontologies/house#">
+    <owl:Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Class -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#Class"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#memilikiRuangan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/house#memilikiRuangan"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/house#memilikiRuangan"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#Dapur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/house#Dapur"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#Garasi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/house#Garasi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#KamarTidur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/house#KamarTidur"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#Parkir -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/house#Parkir"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#RuangTamu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/house#RuangTamu"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#Rumah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/house#Rumah"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#Toilet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/house#Toilet"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#Rumah1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#Rumah1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/house#Rumah"/>
+        <house:memilikiRuangan rdf:resource="http://www.semanticweb.org/ontologies/house#ruangTamurumah1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#Rumah2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#Rumah2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/house#Rumah"/>
+        <house:memilikiRuangan rdf:resource="http://www.semanticweb.org/ontologies/house#kamarTidurrumah2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#Rumah3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#Rumah3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/house#Rumah"/>
+        <house:memilikiRuangan rdf:resource="http://www.semanticweb.org/ontologies/house#dapurrumah3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#dapur1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#dapur1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/house#Dapur"/>
+        <house:memilikiRuangan rdf:resource="http://www.semanticweb.org/ontologies/house#kulkasDapur1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#dapur2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#dapur2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/house#Dapur"/>
+        <house:memilikiRuangan rdf:resource="http://www.semanticweb.org/ontologies/house#komporDapur2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#dapur3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#dapur3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/house#Dapur"/>
+        <house:memilikiRuangan rdf:resource="http://www.semanticweb.org/ontologies/house#ovenDapur3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#dapurrumah3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#dapurrumah3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#garasi1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#garasi1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/house#Garasi"/>
+        <house:memilikiRuangan rdf:resource="http://www.semanticweb.org/ontologies/house#mobilGarasi1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#garasi2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#garasi2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/house#Garasi"/>
+        <house:memilikiRuangan rdf:resource="http://www.semanticweb.org/ontologies/house#sepedaGarasi2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#garasi3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#garasi3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/house#Garasi"/>
+        <house:memilikiRuangan rdf:resource="http://www.semanticweb.org/ontologies/house#motorGarasi3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#kamarTidur1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#kamarTidur1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/house#KamarTidur"/>
+        <house:memilikiRuangan rdf:resource="http://www.semanticweb.org/ontologies/house#tempatTidurKamar1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#kamarTidur2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#kamarTidur2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/house#KamarTidur"/>
+        <house:memilikiRuangan rdf:resource="http://www.semanticweb.org/ontologies/house#mejaBelajarKamar2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#kamarTidur3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#kamarTidur3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/house#KamarTidur"/>
+        <house:memilikiRuangan rdf:resource="http://www.semanticweb.org/ontologies/house#lemariPakaianKamar3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#kamarTidurrumah2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#kamarTidurrumah2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#komporDapur2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#komporDapur2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#kulkasDapur1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#kulkasDapur1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#lemariPakaianKamar3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#lemariPakaianKamar3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#mejaBelajarKamar2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#mejaBelajarKamar2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#mejaRuangan2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#mejaRuangan2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#mobilGarasi1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#mobilGarasi1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#mobilParkir1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#mobilParkir1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#motorGarasi3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#motorGarasi3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#motorParkir2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#motorParkir2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#ovenDapur3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#ovenDapur3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#parkir1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#parkir1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/house#Parkir"/>
+        <house:memilikiRuangan rdf:resource="http://www.semanticweb.org/ontologies/house#mobilParkir1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#parkir2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#parkir2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/house#Parkir"/>
+        <house:memilikiRuangan rdf:resource="http://www.semanticweb.org/ontologies/house#motorParkir2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#parkir3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#parkir3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/house#Parkir"/>
+        <house:memilikiRuangan rdf:resource="http://www.semanticweb.org/ontologies/house#sepedaParkir3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#ruangTamu1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#ruangTamu1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/house#RuangTamu"/>
+        <house:memilikiRuangan rdf:resource="http://www.semanticweb.org/ontologies/house#sofaRuangan1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#ruangTamu2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#ruangTamu2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/house#RuangTamu"/>
+        <house:memilikiRuangan rdf:resource="http://www.semanticweb.org/ontologies/house#mejaRuangan2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#ruangTamu3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#ruangTamu3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/house#RuangTamu"/>
+        <house:memilikiRuangan rdf:resource="http://www.semanticweb.org/ontologies/house#televisiRuangan3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#ruangTamurumah1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#ruangTamurumah1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#sepedaGarasi2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#sepedaGarasi2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#sepedaParkir3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#sepedaParkir3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#showerToilet2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#showerToilet2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#sofaRuangan1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#sofaRuangan1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#televisiRuangan3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#televisiRuangan3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#tempatTidurKamar1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#tempatTidurKamar1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#toilet1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#toilet1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/house#Toilet"/>
+        <house:memilikiRuangan rdf:resource="http://www.semanticweb.org/ontologies/house#wastafelToilet1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#toilet2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#toilet2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/house#Toilet"/>
+        <house:memilikiRuangan rdf:resource="http://www.semanticweb.org/ontologies/house#showerToilet2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#toilet3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#toilet3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/house#Toilet"/>
+        <house:memilikiRuangan rdf:resource="http://www.semanticweb.org/ontologies/house#toiletDudukToilet3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#toiletDudukToilet3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#toiletDudukToilet3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/house#wastafelToilet1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/house#wastafelToilet1"/>
+    <rdf:Description>
+        <owl:Class></owl:Class>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:Class></owl:Class>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:Class></owl:Class>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:Class></owl:Class>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:Class></owl:Class>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:Class></owl:Class>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
